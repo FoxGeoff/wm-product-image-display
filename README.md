@@ -20,5 +20,16 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ### Kanban Task: BUILD GUI COMPONENT
 
-1. Task: Add Angular Material
-2. Task: Add Angular Fex Layout
+### Task: Add Angular Material
+
+1. Ref: <https://material.angular.io/guide/getting-started>
+2. Run: `ng add @angular/material`
+3. Setup Material Module
+4. RE-BOOT SERVER WITH ctl + C and run `ng serve -o`
+
+### Task: Add Angular Flex Layout
+
+1. Run `npm i -s @angular/flex-layout @angular/cdk`
+2. Ref. <https://github.com/angular/flex-layout>
+3. RE-BOOT SERVER WITH ctl + C and run `ng serve -o`
+4. Ref. examples <https://tburleson-layouts-demos.firebaseapp.com/#/docs>
