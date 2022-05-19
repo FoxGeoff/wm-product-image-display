@@ -17,3 +17,8 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ### Kanban Task : BUILD NODE SERVER
 
 1. This node server is just for image display
+
+### Kanban Task: BUILD GUI COMPONENT
+
+1. Task: Add Angular Material
+2. Task: Add Angular Fex Layout
