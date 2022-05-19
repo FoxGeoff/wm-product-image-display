@@ -15,3 +15,5 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 3. Project Ref #2: WingMan Version 3
 
 ### Kanban Task : BUILD NODE SERVER
+
+1. This server is just for image display
