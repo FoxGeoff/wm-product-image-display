@@ -28,6 +28,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 2. Add server/api folder
 3. Add server/api/middleware folder
 4. Add server/api/middleware/middleware.js file
+5. Add server/models folder
 
 ### Task: Add Server (node) - Add packages
 

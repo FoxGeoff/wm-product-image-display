@@ -1,3 +1,8 @@
+/**
+ *  server.js
+ *  Copy from project "WingMan Ver3"
+ */
+
 const express = require("express");
 const db = require("./server/models/db");
 const app = express();
