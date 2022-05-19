@@ -16,4 +16,4 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ### Kanban Task : BUILD NODE SERVER
 
-1. This server is just for image display
+1. This node server is just for image display
