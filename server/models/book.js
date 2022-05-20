@@ -6,13 +6,13 @@ module.exports = (sequelize, DataTypes) => {
     author: DataTypes.STRING,
     year: DataTypes.INTEGER,
   });
-/*
+// for the user association
   Book.associate = (models) => {
     models.Book.belongsToMany(models.User, {
       as: "Readers",
       through: "ReadingList",
     });
-  }; */
+  };
 
   return Book;
 };
