@@ -43,6 +43,11 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 7. run: `npm i express --save`<https://www.npmjs.com/package/express>
 8. run: `npm i nodemon --save`<https://www.npmjs.com/package/nodemon>
 9. run:`npm i sequelize --save`<https://www.npmjs.com/package/sequelize>
+10. Error: Please install sqlite3 package manually
+
+### Task: Install sqlite
+
+1. online ref: <https://www.tutorialspoint.com/sqlite/sqlite_installation.htm>
 
 ### Task: Add Server (node) - Setup routes (api/index.js)
 
