@@ -45,12 +45,16 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 8. run: `npm i nodemon --save`<https://www.npmjs.com/package/nodemon>
 9. run:`npm i sequelize --save`<https://www.npmjs.com/package/sequelize>
 10. Error: Please install sqlite3 package manually FIX: Task: Install sqlite
-11. Error: Error: Cannot find module './server/api' FIX
+11. Error: Error: Cannot find module './server/api' FIX Task: Fix directory structure and paths
 
 ### Task: Install sqlite
 
 1. online ref: <https://www.npmjs.com/package/sqlite3>
 2. run `npm i sqlite3`
+
+### Task: Fix directory structure and paths
+
+1. Change in book.controller.js `const models = require("../../models/db");` path note correct
 
 ### Task: Add Server (node) - Setup routes (api/index.js)
 
