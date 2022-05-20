@@ -29,6 +29,8 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 3. Add server/api/middleware folder
 4. Add server/api/middleware/middleware.js file
 5. Add server/models folder
+6. Add server/model/seed/seed-bd.js file
+7. Add server/model/db.js
 
 ### Task: Add Server (node) - Add packages
 
