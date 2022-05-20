@@ -31,6 +31,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 5. Add server/models folder
 6. Add server/model/seed/seed-bd.js file
 7. Add server/model/db.js
+8. Add server/api/index.js file
 
 ### Task: Add Server (node) - Add packages
 
@@ -43,7 +44,8 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 7. run: `npm i express --save`<https://www.npmjs.com/package/express>
 8. run: `npm i nodemon --save`<https://www.npmjs.com/package/nodemon>
 9. run:`npm i sequelize --save`<https://www.npmjs.com/package/sequelize>
-10. Error: Please install sqlite3 package manually
+10. Error: Please install sqlite3 package manually FIX: Task: Install sqlite
+11. Error: Error: Cannot find module './server/api' FIX
 
 ### Task: Install sqlite
 
