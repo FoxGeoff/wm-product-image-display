@@ -47,7 +47,8 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ### Task: Install sqlite
 
-1. online ref: <https://www.tutorialspoint.com/sqlite/sqlite_installation.htm>
+1. online ref: <https://www.npmjs.com/package/sqlite3>
+2. run `npm i sqlite3`
 
 ### Task: Add Server (node) - Setup routes (api/index.js)
 

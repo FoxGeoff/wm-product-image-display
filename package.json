@@ -31,6 +31,7 @@
     "rxjs": "~7.5.0",
     "sequelize": "^6.19.2",
     "serve-favicon": "^2.5.0",
+    "sqlite3": "^5.0.8",
     "tslib": "^2.3.0",
     "zone.js": "~0.11.4"
   },
