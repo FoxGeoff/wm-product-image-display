@@ -88,6 +88,8 @@ module.exports = (app) => {
 running server on port 3000
 ```
 
+### Task: Add user and and book to user association
+
 1. Test: Good to go!
 ===
 
