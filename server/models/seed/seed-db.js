@@ -39,9 +39,7 @@ module.exports = {
       */
     models.Book.bulkCreate(_BOOKS)
       .then((res) => {
-        console.log(
-          "(seed-db.js - Success adding products, users, books, customers, invoices, accounts, deliverables, categories"
-        );
+        console.log("seed-db.js - Success adding users and books!");
       })
       // })
       .catch((error) => {
