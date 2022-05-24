@@ -1,4 +1,4 @@
-'use strict'
+"use strict";
 
 module.exports = (sequelize, DataTypes) => {
   const Book = sequelize.define("Book", {
@@ -6,7 +6,7 @@ module.exports = (sequelize, DataTypes) => {
     author: DataTypes.STRING,
     year: DataTypes.INTEGER,
   });
-// for the user association
+  // for the user association
   Book.associate = (models) => {
     models.Book.belongsToMany(models.User, {
       as: "Readers",
@@ -14,9 +14,12 @@ module.exports = (sequelize, DataTypes) => {
     });
   };
 
-    Book.associate = (models) => {
-      models.Book.belongsToMany(models.User, { as: 'Readers', through: 'ReadingList'});
-    };
-
-    return Book;
+  Book.associate = (models) => {
+    models.Book.belongsToMany(models.User, {
+      as: "Readers",
+      through: "ReadingList",
+    });
   };
+
+  return Book;
+};
