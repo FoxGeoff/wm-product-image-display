@@ -4,6 +4,10 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Introduction
 
+1. Presentation Document: WingMan Ver 4.0 (5-18-2022)
+2. Ref code, Image Server Files <>
+3. POC Product <https://www.customsigns.com/24-hour-surveillance-vinyl-decal>
+
 ### Specifications
 
 1. POC for component in WingMan V4 Project
@@ -13,6 +17,9 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 1. Video Ref #1: Introduction to Sequelize ORM for Node.js
 2. Link:  <https://app.pluralsight.com/library/courses/sequelize-orm-nodejs-introduction/discussion>
 3. Project Ref #2: WingMan Version 3
+4. Video Ref #3: Angular and Node.js - The MEAN Stack Guide
+5. Video Link #3: <https://learning.oreilly.com/videos/angular-and-node-js/9781789959741/>
+6. Code Ref #3: Github Project : MeanStack Ver3
 
 ### Kanban Task : BUILD NODE SERVER
 
