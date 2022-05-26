@@ -125,3 +125,20 @@ running server on port 3000
 2. post-create
 3. post-list
 4. header
+
+#### ERROR: "src/app/auth/auth.service.ts:19:24 - error TS2503: Cannot find namespace 'NodeJS'."
+
+#### FIX
+
+```json
+/** tsconfig.app.jason
+* ref: https://stackoverflow.com/questions/58223909/cannot-find-namespace-nodejs
+*/
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "outDir": "./out-tsc/app",
+    "types": ["node"]
+  },
+  ...
+```
