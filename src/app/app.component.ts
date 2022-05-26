@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { AuthService } from './auth/auth.service';
 import { Post } from './models/post';
 
 @Component({
@@ -20,5 +21,4 @@ export class AppComponent {
     this.storedPosts.push(post);
   }
 
-}
 }
