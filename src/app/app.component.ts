@@ -7,4 +7,17 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'wm-product-image-display';
+  storedPosts: Post[] = [];
+
+  constructor(private authService: AuthService) { }
+
+  ngOnInit() {
+    this.authService.autoAuthUser();
+  }
+
+  onPostAdded(post: Post) {
+    this.storedPosts.push(post);
+  }
+
+}
 }

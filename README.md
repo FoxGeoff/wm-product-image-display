@@ -118,3 +118,10 @@ running server on port 3000
 2. Ref. <https://github.com/angular/flex-layout>
 3. RE-BOOT SERVER WITH ctl + C and run `ng serve -o`
 4. Ref. examples <https://tburleson-layouts-demos.firebaseapp.com/#/docs>
+
+### Kanban Task: USE REF PROJECT - MEANSTACK-V3
+
+1. Add Angular Components
+2. post-create
+3. post-list
+4. header
