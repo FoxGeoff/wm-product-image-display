@@ -138,7 +138,7 @@ running server on port 3000
   "extends": "./tsconfig.json",
   "compilerOptions": {
     "outDir": "./out-tsc/app",
-    "types": ["node"]
+    "types": ["node"]  // was missing
   },
   ...
 ```
